@@ -34,7 +34,7 @@ print("Items in JSON:", len(items))
 
 rows = []
 
-for entry in items[:110]:  # Top 100 most popular
+for entry in items[:100]:  # Top 100 most popular
     item = entry.get("item", {})
 
     title = item.get("name")
